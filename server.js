@@ -129,7 +129,7 @@ app.use(cors({origin:"*"}));
 //   credentials: true, // If you need cookies or other credentials
 // };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 app.use(fileUploader({
     useTempFiles: true,
 }))
